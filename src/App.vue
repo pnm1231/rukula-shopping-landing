@@ -39,7 +39,6 @@ body {
 }
 main a,
 footer a {
-  margin:0 15px;
   color: #d83743;
 }
 main a:hover,

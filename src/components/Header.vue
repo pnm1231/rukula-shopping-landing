@@ -19,7 +19,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col d-flex justify-content-end" id="contact-numbers">
+                <div class="col d-flex" id="contact-numbers">
                     <ul class="list-unstyled list-inline mb-0 align-self-center">
                         <li class="list-inline-item">
                             <a href="tel:+94117785800">
@@ -64,6 +64,7 @@ header {
 #logo-wrapper img {
     height: 120px;
 }
+
 #menu-items a {
     display: inline-block;
     padding: .75rem 1.5rem;
@@ -74,6 +75,12 @@ header {
     background-color: #e24d58;
 }
 
+#contact-numbers {
+    justify-content: flex-end;
+}
+#contact-numbers li {
+    margin-left: 15px;
+}
 #contact-numbers a {
     display: inline-block;
     padding: .50rem 1rem;
@@ -92,12 +99,27 @@ header {
     box-shadow: 1px 2px 10px rgba(0,0,0,0.2);
     text-decoration: none;
 }
+
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
     }
+    header {
+        margin-bottom: 5rem!important;
+        background-color: #fff;
+        box-shadow: none;
+    }
     #logo-wrapper {
-        margin: 0 auto;
+        width: auto;
+        box-shadow: none;
+        z-index: 0;
+    }
+    #menu-items a {
+        color: #b12833;
+    }
+    #contact-numbers {
+        margin-top: 1rem;
+        justify-content: space-between;
     }
 }
 </style>
