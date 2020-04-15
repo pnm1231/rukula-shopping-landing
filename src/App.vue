@@ -1,32 +1,49 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <Header></Header>
+    <main class="container-fluid">
+      <div class="container">
+        <router-view></router-view>
+      </div>
+    </main>
+    <Footer></Footer>
   </div>
 </template>
 
+<script>
+import Header from './components/Header'
+import Footer from './components/Footer'
+
+export default {
+    name: 'App',
+    components: {
+        Header,
+        Footer
+    }
+}
+</script>
+
 <style>
+body {
+  background-color: #fefcf9 !important;
+  background-image: url('assets/man-holding-shopping-bag.png');
+  background-repeat: no-repeat;
+  background-size: auto 500px;
+  background-position: 98% bottom;
+  min-height: 100vh;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Nunito, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
-
-#nav {
-  padding: 30px;
+main a,
+footer a {
+  margin:0 15px;
+  color: #d83743;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+main a:hover,
+footer a:hover {
+  color: #8c2a30;
 }
 </style>
