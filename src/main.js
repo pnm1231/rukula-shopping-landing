@@ -5,9 +5,17 @@ import router from './router'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-Vue.config.productionTip = false
+import VueGtag from 'vue-gtag';
+
+Vue.use(VueGtag, {
+  config: {
+    id: 'UA-163780626-1'
+  }
+});
+
+Vue.config.productionTip = false;
 
 new Vue({
   router,
   render: h => h(App)
-}).$mount('#app')
+}).$mount('#app');
