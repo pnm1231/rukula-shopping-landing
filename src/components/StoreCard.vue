@@ -8,10 +8,16 @@
                 <a :href="store.url" class="text-dark" target="_blank">{{ store.name }}</a>
             </h3>
         </div>
-        <div class="card-footer bg-transparent">
+        <!--<div class="card-footer bg-transparent">
             <p class="mb-2 text-muted">Supported cities</p>
             <div>
                 <span v-for="(city, key) in supportedCities" :key="key" class="badge badge-pill badge-primary mr-1">{{ city.name }}</span>
+            </div>
+        </div>-->
+        <div v-if="store.productCategories.length" class="card-footer bg-transparent">
+            <p class="mb-2 text-muted">Product Categories</p>
+            <div>
+                <span v-for="(category, key) in store.productCategories" :key="key" class="badge badge-pill badge-primary mr-1 mb-2">{{ category }}</span>
             </div>
         </div>
     </div>
@@ -50,6 +56,7 @@ export default {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.25)!important;
 }
 .badge-primary {
+    font-size: 90%;
     font-weight: normal;
     /*border: 1px solid #007bff;*/
     /*color: #007bff;*/

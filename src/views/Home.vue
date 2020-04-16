@@ -1,6 +1,8 @@
 <template>
   <div>
+    <SupportedCities></SupportedCities>
     <Search></Search>
+    <h3 class="mb-3">Our partner stores</h3>
     <div class="row">
       <div v-for="(store, key) in stores" :key="key" class="col-md-4">
         <StoreCard :store="store"></StoreCard>
@@ -20,10 +22,12 @@
   import Search from '../components/Search';
   import StoreCard from '../components/StoreCard';
   import stores from '../data/stores';
+  import SupportedCities from "../components/SupportedCities";
 
   export default {
     name: 'Home',
     components: {
+      SupportedCities,
       Search,
       StoreCard
     },
