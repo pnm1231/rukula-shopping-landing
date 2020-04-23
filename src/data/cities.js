@@ -24,6 +24,7 @@ const allCities = {
     106: {"id":106,"state_id":9,"name":"Ethul Kotte","state":"Western"},
     140: {"id":140,"state_id":9,"name":"Hokandara","state":"Western"},
     141: {"id":141,"state_id":9,"name":"Homagama","state":"Western"},
+    151: {"id":151,"state_id":9,"name":"Kaduwela","state":"Western"},
     195: {"id":195,"state_id":9,"name":"Kohuwala","state":"Western"},
     200: {"id":200,"state_id":5,"name":"Koswatta","state":"North Western"},
     203: {"id":203,"state_id":9,"name":"Kottawa","state":"Western"},
