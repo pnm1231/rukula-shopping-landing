@@ -1,14 +1,9 @@
 <template>
   <div>
-    <SupportedCities></SupportedCities>
     <Search></Search>
-    <h3 class="mb-3">Our partner stores</h3>
-    <div class="row">
-      <div v-for="(store, key) in stores" :key="key" class="col-md-4">
-        <StoreCard :store="store"></StoreCard>
-      </div>
-    </div>
-    <div class="card border-0 shadow mt-5 d-none">
+    <Stores></Stores>
+    <SupportedCities></SupportedCities>
+    <div class="card border-0 shadow d-none">
       <div class="card-body">
         <h3 class="mb-4">About Us</h3>
         <p>Rukula was created in 2014 to offer credit to overlooked populations in an easy, transparent and safe manner. Over 5 years we have helped 40,000 low-income individuals obtain household necessities on credit through Rukula’s network of nationwide retailers.</p>
@@ -20,8 +15,7 @@
 
 <script>
   import Search from '../components/Search';
-  import StoreCard from '../components/StoreCard';
-  import stores from '../data/stores';
+  import Stores from '../components/Stores';
   import SupportedCities from "../components/SupportedCities";
 
   export default {
@@ -29,12 +23,7 @@
     components: {
       SupportedCities,
       Search,
-      StoreCard
-    },
-    data () {
-      return {
-        stores: stores
-      }
+      Stores
     }
   }
 </script>

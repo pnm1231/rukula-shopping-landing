@@ -1,5 +1,5 @@
 <template>
-    <div class="card border-0 shadow text-center mb-5 mb-md-0">
+    <div :class="'card border-0 shadow text-center mb-5' + (!store.name ? ' invisible d-none d-md-flex' : '')">
         <div class="card-body">
             <a :href="store.url" target="_blank">
                 <div class="store-image" :style="'background-image: url(' + store.image + ')'"></div>
@@ -7,6 +7,11 @@
             <h3 class="font-weight-bold mt-0 mb-1">
                 <a :href="store.url" class="text-dark" target="_blank">{{ store.name }}</a>
             </h3>
+            <hr>
+            <p class="mb-2 text-muted">Product Categories</p>
+            <div>
+                <span v-for="(category, key) in store.productCategories" :key="key" class="badge badge-pill badge-primary mr-1 mb-2">{{ category }}</span>
+            </div>
         </div>
         <!--<div class="card-footer bg-transparent">
             <p class="mb-2 text-muted">Supported cities</p>
@@ -14,12 +19,6 @@
                 <span v-for="(city, key) in supportedCities" :key="key" class="badge badge-pill badge-primary mr-1">{{ city.name }}</span>
             </div>
         </div>-->
-        <div v-if="store.productCategories.length" class="card-footer bg-transparent">
-            <p class="mb-2 text-muted">Product Categories</p>
-            <div>
-                <span v-for="(category, key) in store.productCategories" :key="key" class="badge badge-pill badge-primary mr-1 mb-2">{{ category }}</span>
-            </div>
-        </div>
     </div>
 </template>
 
@@ -63,5 +62,9 @@ export default {
     border: 1px solid #ccc;
     color: #333;
     background-color: transparent;
+}
+hr {
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
 }
 </style>
