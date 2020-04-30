@@ -23,14 +23,12 @@
                     <ul class="list-unstyled list-inline mb-0 align-self-center">
                         <li class="list-inline-item">
                             <a href="tel:+94117785800">
-                                <span><i class="fas fa-phone mr-1"></i></span>
-                                0117785800
+                                <i class="fas fa-phone mr-1"></i> 0117785800
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a href="tel:+94117785840">
-                                <span><i class="fas fa-phone mr-1"></i></span>
-                                0117785840
+                                <i class="fas fa-phone mr-1"></i> 0117785840
                             </a>
                         </li>
                     </ul>
@@ -75,12 +73,6 @@ header {
     background-color: #e24d58;
 }
 
-#contact-numbers {
-    justify-content: flex-end;
-}
-#contact-numbers li {
-    margin-left: 15px;
-}
 #contact-numbers a {
     display: inline-block;
     padding: .50rem 1rem;
@@ -100,12 +92,13 @@ header {
     text-decoration: none;
 }
 
+/* Small */
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
     }
     header {
-        margin-bottom: 5rem!important;
+        margin-bottom: 6rem!important;
         background-color: #fff;
         box-shadow: none;
     }
@@ -120,6 +113,16 @@ header {
     #contact-numbers {
         margin-top: 1rem;
         justify-content: space-between;
+    }
+}
+
+/* Big */
+@media only screen and (min-width: 600px) {
+    #contact-numbers {
+        justify-content: flex-end;
+    }
+    #contact-numbers li {
+        margin-left: 15px;
     }
 }
 </style>
