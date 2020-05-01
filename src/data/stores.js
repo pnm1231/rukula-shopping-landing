@@ -8,7 +8,7 @@ const stores = [
     },
     {
         name: 'Norfolk Crescent',
-        image: 'https://cdn.zenegal.store/stores/3/100-norfolk-crescent-15870266755399.png',
+        image: 'https://cdn.zenegal.store/stores/3/100-norfolk-crescent-15883183281216.png',
         url: 'https://crescent.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Burgers & Meatballs', 'Cold Foods', 'Kebab', 'Sausages', 'Smoked Delicacies']
