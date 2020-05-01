@@ -44,7 +44,6 @@ const allCities = {
     173: {"id":173,"state_id":9,"name":"Katubedda","state":"Western"},
     183: {"id":183,"state_id":9,"name":"Kesbewa","state":"Western"},
     185: {"id":185,"state_id":9,"name":"Kindelpitiya","state":"Western"},
-    187: {"id":187,"state_id":9,"name":"Kiribathgoda","state":"Western"},
     192: {"id":192,"state_id":9,"name":"Kochchikade","state":"Western"},
     195: {"id":195,"state_id":9,"name":"Kohuwala","state":"Western"},
     197: {"id":197,"state_id":9,"name":"Kolonnawa","state":"Western"},
@@ -65,18 +64,15 @@ const allCities = {
     298: {"id":298,"state_id":9,"name":"Pamunuwa","state":"Western"},
     305: {"id":305,"state_id":9,"name":"Pannipitiya","state":"Western"},
     309: {"id":309,"state_id":9,"name":"Pelawatta","state":"Western"},
-    310: {"id":310,"state_id":9,"name":"Peliyagoda","state":"Western"},
     312: {"id":312,"state_id":9,"name":"Pepiliyana","state":"Western"},
     315: {"id":315,"state_id":9,"name":"Piliyandala","state":"Western"},
     316: {"id":316,"state_id":9,"name":"Pita Kotte","state":"Western"},
     319: {"id":319,"state_id":9,"name":"Polgasowita","state":"Western"},
     336: {"id":336,"state_id":9,"name":"Ratmalana","state":"Western"},
     341: {"id":341,"state_id":9,"name":"Rukmalgama","state":"Western"},
-    346: {"id":346,"state_id":9,"name":"Sapugaskanda","state":"Western"},
     353: {"id":353,"state_id":9,"name":"Sri Jayawardenapura","state":"Western"},
     365: {"id":365,"state_id":9,"name":"Thalangama","state":"Western"},
     356: {"id":356,"state_id":9,"name":"Thalawathugoda","state":"Western"},
-    396: {"id":396,"state_id":9,"name":"Welisara","state":"Western"},
     398: {"id":398,"state_id":9,"name":"Wellampitiya","state":"Western"}
 };
 

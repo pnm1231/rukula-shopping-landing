@@ -4,7 +4,7 @@
             <a :href="store.url" target="_blank">
                 <div class="store-image" :style="'background-image: url(' + store.image + ')'"></div>
             </a>
-            <h3 class="font-weight-bold mt-0 mb-1">
+            <h3 class="font-weight-bold mt-2 mb-1">
                 <a :href="store.url" class="text-dark" target="_blank">{{ store.name }}</a>
             </h3>
             <hr>

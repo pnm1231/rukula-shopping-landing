@@ -29,7 +29,7 @@ const stores = [
     },
     {
         name: 'Ecoclean',
-        image: 'https://cdn.zenegal.store/stores/11/100-ecoclean-15880740175038.png',
+        image: 'https://cdn.zenegal.store/stores/11/100-ecoclean-15883187401198.png',
         url: 'https://ecoclean.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
