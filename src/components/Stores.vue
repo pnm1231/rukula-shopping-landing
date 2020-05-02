@@ -22,13 +22,14 @@ export default {
     },
     data () {
         return {
-            allStores: stores,
             chunkedStores: []
         }
     },
     created () {
-        while (this.allStores.length > 0) {
-            this.chunkedStores.push(this.allStores.splice(0, 3));
+        let allStores = JSON.parse(JSON.stringify(stores));
+
+        while (allStores.length > 0) {
+            this.chunkedStores.push(allStores.splice(0, 3));
         }
     }
 }
