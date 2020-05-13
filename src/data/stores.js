@@ -15,10 +15,10 @@ const stores = [
     },
     {
         name: 'CatchMe.lk',
-        image: 'https://www.catchme.lk/images/logo.png',
-        url: 'https://www.catchme.lk',
+        image: 'https://cdn.zenegal.store/stores/5/100-catchme-1587020784364.png',
+        url: 'https://catchme.rukulashopping.lk',
         supportedCities: [],
-        productCategories: ['Baby Care', 'Beverages', 'Biscuits', 'Frozen Food', 'Fruits & Vegetables', 'Groceries', 'Nuts & Seeds']
+        productCategories: ['Chocolates', 'Dates', 'Fruits', 'Snacks']
     },
     {
         name: 'Round Island',
