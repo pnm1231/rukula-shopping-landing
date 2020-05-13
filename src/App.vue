@@ -30,6 +30,7 @@ body {
   background-repeat: no-repeat;
   background-size: auto 500px;
   background-position: 98% bottom;
+  background-attachment: fixed;
   min-height: 100vh;
 }
 #app {
@@ -44,5 +45,8 @@ footer a {
 main a:hover,
 footer a:hover {
   color: #8c2a30;
+}
+h3 {
+  text-shadow: 0 0 5px #fff;
 }
 </style>
