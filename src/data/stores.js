@@ -14,11 +14,32 @@ const stores = [
         productCategories: ['Burgers & Meatballs', 'Cold Foods', 'Kebab', 'Sausages', 'Smoked Delicacies']
     },
     {
+        name: 'Ariya',
+        image: 'https://cdn.zenegal.store/stores/13/100-ariya-15893608543583.jpg',
+        url: 'https://ariya.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Rice', 'Noodles', 'Milk Powder', 'Condiments']
+    },
+    {
         name: 'CatchMe.lk',
         image: 'https://cdn.zenegal.store/stores/5/100-catchme-1587020784364.png',
         url: 'https://catchme.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Chocolates', 'Dates', 'Fruits', 'Snacks']
+    },
+    {
+        name: 'Pepsi',
+        image: 'https://cdn.zenegal.store/stores/14/100-pepsi-15890915844901.png',
+        url: 'https://pepsi.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Pepsi', 'Mirinda', '7up', 'Ole Cream Soda', 'Evervess', 'Mountain Dew', 'Ole Zingo', 'Aquafina']
+    },
+    {
+        name: 'MD',
+        image: 'https://cdn.zenegal.store/stores/10/100-md-15878967306849.png',
+        url: 'https://md.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Cakes Powders and Mixes', 'Cordials', 'Fruit Drinks & Nectar', 'Jams', 'Pastes', 'Sambols', 'Chutneys & Pickles', 'Sauces', 'Treacles']
     },
     {
         name: 'Round Island',
