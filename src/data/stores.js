@@ -7,6 +7,13 @@ const stores = [
         productCategories: ['Cereals and Nestea', 'Dairy', 'Maggi', 'Milkmaid', 'Milo', 'Nescafe', 'Nestomalt', 'Nutrition Range']
     },
     {
+        name: 'Ambewela Premium Products',
+        image: 'https://cdn.zenegal.store/stores/12/100-ambewela-1588150091457.png',
+        url: 'https://ambewela.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Fresh Milk', 'Flavoured Milk', 'Non-Fat Milk', 'Fruit Drinks', 'Energy Drinks', 'Yogurts', 'Cheese']
+    },
+    {
         name: 'Norfolk Crescent',
         image: 'https://cdn.zenegal.store/stores/3/100-norfolk-crescent-15883183281216.png',
         url: 'https://crescent.rukulashopping.lk',
@@ -55,13 +62,13 @@ const stores = [
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
     },
-    {
+    /*{
         name: '',
         image: '',
         url: '',
         supportedCities: [],
         productCategories: []
-    },
+    },*/
 ];
 
 export default stores;
