@@ -14,6 +14,13 @@ const stores = [
         productCategories: ['Fresh Milk', 'Flavoured Milk', 'Non-Fat Milk', 'Fruit Drinks', 'Energy Drinks', 'Yogurts', 'Cheese']
     },
     {
+        name: 'Zesta Ceylon Tea',
+        image: 'https://cdn.zenegal.store/stores/17/100-zesta-ceylon-tea-15890910003682.png',
+        url: 'https://zestaceylontea.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Everyday Black Tea', 'Leafy Black Teas', 'Single Estate Black Teas', 'Flavored Black Tea', 'Green Tea', 'Gift Teas', 'White Teas', 'Herbal Wellness Range']
+    },
+    {
         name: 'Norfolk Crescent',
         image: 'https://cdn.zenegal.store/stores/3/100-norfolk-crescent-15883183281216.png',
         url: 'https://crescent.rukulashopping.lk',
@@ -62,13 +69,20 @@ const stores = [
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
     },
-    /*{
+    {
         name: '',
         image: '',
         url: '',
         supportedCities: [],
         productCategories: []
-    },*/
+    },
+    {
+        name: '',
+        image: '',
+        url: '',
+        supportedCities: [],
+        productCategories: []
+    },
 ];
 
 export default stores;
