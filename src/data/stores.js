@@ -21,6 +21,13 @@ const stores = [
         productCategories: ['Everyday Black Tea', 'Leafy Black Teas', 'Single Estate Black Teas', 'Flavored Black Tea', 'Green Tea', 'Gift Teas', 'White Teas', 'Herbal Wellness Range']
     },
     {
+        name: 'Yummy Goodness',
+        image: 'https://cdn.zenegal.store/stores/15/100-yummy-goodness-15890901988175.png',
+        url: 'https://yummygoodness.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Jams', 'Marmalades', 'Chutneys', 'Pickles']
+    },
+    {
         name: 'Norfolk Crescent',
         image: 'https://cdn.zenegal.store/stores/3/100-norfolk-crescent-15883183281216.png',
         url: 'https://crescent.rukulashopping.lk',
@@ -68,13 +75,6 @@ const stores = [
         url: 'https://ecoclean.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
-    },
-    {
-        name: '',
-        image: '',
-        url: '',
-        supportedCities: [],
-        productCategories: []
     },
     {
         name: '',
