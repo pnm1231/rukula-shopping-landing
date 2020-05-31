@@ -14,6 +14,13 @@ const stores = [
         productCategories: ['Fresh Milk', 'Flavoured Milk', 'Non-Fat Milk', 'Fruit Drinks', 'Energy Drinks', 'Yogurts', 'Cheese']
     },
     {
+        name: 'ShopVise',
+        image: 'https://cdn.zenegal.store/stores/23/100-shopvise-by-rukula-15909154607639.png',
+        url: 'https://shopvise.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Electronics', 'Home & Living', 'Kitchenware', 'Computers & Accessories', 'Phones & Accessories', 'Automotive']
+    },
+    {
         name: 'Zesta Ceylon Tea',
         image: 'https://cdn.zenegal.store/stores/17/100-zesta-ceylon-tea-15890910003682.png',
         url: 'https://zestaceylontea.rukulashopping.lk',
@@ -76,13 +83,13 @@ const stores = [
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
     },
-    {
+    /*{
         name: '',
         image: '',
         url: '',
         supportedCities: [],
         productCategories: []
-    },
+    },*/
 ];
 
 export default stores;
