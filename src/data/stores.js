@@ -28,6 +28,13 @@ const stores = [
         productCategories: ['Everyday Black Tea', 'Leafy Black Teas', 'Single Estate Black Teas', 'Flavored Black Tea', 'Green Tea', 'Gift Teas', 'White Teas', 'Herbal Wellness Range']
     },
     {
+        name: 'Good Look 1',
+        image: 'https://cdn.zenegal.store/stores/21/100-good-look-1-15900444225206.png',
+        url: 'https://goodlook1.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Handwash & Sanitizer', 'Skincare', 'Haircare', 'Perfumes and Deodorants']
+    },
+    {
         name: 'Yummy Goodness',
         image: 'https://cdn.zenegal.store/stores/15/100-yummy-goodness-15890901988175.png',
         url: 'https://yummygoodness.rukulashopping.lk',
@@ -83,13 +90,20 @@ const stores = [
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
     },
-    /*{
+    {
         name: '',
         image: '',
         url: '',
         supportedCities: [],
         productCategories: []
-    },*/
+    },
+    {
+        name: '',
+        image: '',
+        url: '',
+        supportedCities: [],
+        productCategories: []
+    },
 ];
 
 export default stores;
