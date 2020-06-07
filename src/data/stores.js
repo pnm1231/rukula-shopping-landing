@@ -36,7 +36,7 @@ const stores = [
     },
     {
         name: 'Yummy Goodness',
-        image: 'https://cdn.zenegal.store/stores/15/100-yummy-goodness-15890901988175.png',
+        image: 'https://cdn.zenegal.store/stores/15/100-yummy-goodness-15915729971038.png',
         url: 'https://yummygoodness.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Jams', 'Marmalades', 'Chutneys', 'Pickles']
