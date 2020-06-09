@@ -42,6 +42,13 @@ const stores = [
         productCategories: ['Jams', 'Marmalades', 'Chutneys', 'Pickles']
     },
     {
+        name: 'Vintage Teas',
+        image: 'https://cdn.zenegal.store/stores/22/100-vintage-teas-15907472666569.png',
+        url: 'https://vintageteas.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Black Teas', 'Green Teas', 'Infusions', 'International Teas', 'Morning After Teas', 'Regional Teas']
+    },
+    {
         name: 'Norfolk Crescent',
         image: 'https://cdn.zenegal.store/stores/3/100-norfolk-crescent-15883183281216.png',
         url: 'https://crescent.rukulashopping.lk',
@@ -89,13 +96,6 @@ const stores = [
         url: 'https://ecoclean.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
-    },
-    {
-        name: '',
-        image: '',
-        url: '',
-        supportedCities: [],
-        productCategories: []
     },
     {
         name: '',
