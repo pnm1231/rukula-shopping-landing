@@ -14,8 +14,15 @@ const stores = [
         productCategories: ['Fresh Milk', 'Flavoured Milk', 'Non-Fat Milk', 'Fruit Drinks', 'Energy Drinks', 'Yogurts', 'Cheese']
     },
     {
+        name: 'Phoenix',
+        image: 'https://phoenix.rukulashopping.lk/images/logo.png',
+        url: 'https://phoenix.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Cleaning Equipment', 'Furniture', 'Garden', 'Kitchen', 'Laundry', 'Storage Solutions', 'Waste Management'],
+    },
+    {
         name: 'ShopVise',
-        image: 'https://cdn.zenegal.store/stores/23/100-shopvise-by-rukula-15909154607639.png',
+        image: 'https://cdn.zenegal.store/stores/23/400-shopvise-by-rukula-15909154607639.png',
         url: 'https://shopvise.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Electronics', 'Home & Living', 'Kitchenware', 'Computers & Accessories', 'Phones & Accessories', 'Automotive']
@@ -34,13 +41,13 @@ const stores = [
         supportedCities: [],
         productCategories: ['Handwash & Sanitizer', 'Skincare', 'Haircare', 'Perfumes and Deodorants']
     },
-    {
+    /*{
         name: 'Yummy Goodness',
         image: 'https://cdn.zenegal.store/stores/15/100-yummy-goodness-15915729971038.png',
         url: 'https://yummygoodness.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Jams', 'Marmalades', 'Chutneys', 'Pickles']
-    },
+    },*/
     {
         name: 'Vintage Teas',
         image: 'https://cdn.zenegal.store/stores/22/100-vintage-teas-15907472666569.png',
@@ -92,7 +99,7 @@ const stores = [
     },
     {
         name: 'Ecoclean',
-        image: 'https://cdn.zenegal.store/stores/11/100-ecoclean-15883187401198.png',
+        image: 'https://cdn.zenegal.store/stores/11/400-ecoclean-15883187401198.png',
         url: 'https://ecoclean.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']

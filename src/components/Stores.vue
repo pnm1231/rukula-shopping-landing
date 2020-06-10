@@ -34,3 +34,15 @@ export default {
     }
 }
 </script>
+
+<style>
+    #store-phoenix .store-image {
+        background-size: 150px;
+    }
+    #store-shopvise .store-image {
+        background-size: 150px;
+    }
+    #store-ecoclean .store-image {
+        background-size: 120px;
+    }
+</style>

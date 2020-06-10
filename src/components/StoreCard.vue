@@ -1,5 +1,5 @@
 <template>
-    <div :class="'card border-0 shadow text-center mb-5' + (!store.name ? ' invisible d-none d-md-flex' : '')">
+    <div :id="'store-' + slug" :class="'card border-0 shadow text-center mb-5' + (!store.name ? ' invisible d-none d-md-flex' : '')">
         <div class="card-body">
             <a :href="store.url" target="_blank">
                 <div class="store-image" :style="'background-image: url(' + store.image + ')'"></div>
@@ -32,6 +32,7 @@ export default {
     ],
     data () {
         return {
+            slug: this.stringToSlug(this.store.name),
             supportedCities: []
         }
     },
@@ -39,6 +40,25 @@ export default {
         this.store.supportedCities.map(cityId => {
             this.supportedCities.push(cities[cityId])
         })
+    },
+    methods: {
+        stringToSlug (str) {
+            str = str.replace(/^\s+|\s+$/g, ''); // trim
+            str = str.toLowerCase();
+
+            // remove accents, swap ñ for n, etc
+            var from = "àáäâèéëêìíïîòóöôùúüûñç·/_,:;";
+            var to   = "aaaaeeeeiiiioooouuuunc------";
+            for (var i=0, l=from.length ; i<l ; i++) {
+                str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+            }
+
+            str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+                .replace(/\s+/g, '-') // collapse whitespace and replace by -
+                .replace(/-+/g, '-'); // collapse dashes
+
+            return str;
+        }
     }
 }
 </script>
