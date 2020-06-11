@@ -18,7 +18,7 @@ const stores = [
         image: 'https://phoenix.rukulashopping.lk/images/logo.png',
         url: 'https://phoenix.rukulashopping.lk',
         supportedCities: [],
-        productCategories: ['Cleaning Equipment', 'Furniture', 'Garden', 'Kitchen', 'Laundry', 'Storage Solutions', 'Waste Management'],
+        productCategories: ['Clean', 'Furniture', 'Garden', 'Kitchen', 'Laundry', 'Storage', 'Waste'],
     },
     {
         name: 'ShopVise',
