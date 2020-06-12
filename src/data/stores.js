@@ -18,7 +18,7 @@ const stores = [
         image: 'https://phoenix.rukulashopping.lk/images/logo.png',
         url: 'https://phoenix.rukulashopping.lk',
         supportedCities: [],
-        productCategories: ['Clean', 'Furniture', 'Garden', 'Kitchen', 'Laundry', 'Storage', 'Waste'],
+        productCategories: ['Waste', 'Storage', 'Laundry', 'Kitchen', 'Clean', 'Furniture', 'Garden'],
     },
     {
         name: 'ShopVise',
@@ -41,13 +41,13 @@ const stores = [
         supportedCities: [],
         productCategories: ['Handwash & Sanitizer', 'Skincare', 'Haircare', 'Perfumes and Deodorants']
     },
-    /*{
+    {
         name: 'Yummy Goodness',
         image: 'https://cdn.zenegal.store/stores/15/100-yummy-goodness-15915729971038.png',
         url: 'https://yummygoodness.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Jams', 'Marmalades', 'Chutneys', 'Pickles']
-    },*/
+    },
     {
         name: 'Vintage Teas',
         image: 'https://cdn.zenegal.store/stores/22/100-vintage-teas-15907472666569.png',
@@ -104,13 +104,13 @@ const stores = [
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
     },
-    {
+    /*{
         name: '',
         image: '',
         url: '',
         supportedCities: [],
         productCategories: []
-    },
+    },*/
 ];
 
 export default stores;
