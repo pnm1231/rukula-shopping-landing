@@ -81,7 +81,7 @@ const stores = [
         image: 'https://cdn.zenegal.store/stores/14/100-pepsi-15890915844901.png',
         url: 'https://pepsi.rukulashopping.lk',
         supportedCities: [],
-        productCategories: ['Pepsi', 'Mirinda', '7up', 'Ole Cream Soda', 'Evervess', 'Mountain Dew', 'Ole Zingo', 'Aquafina']
+        productCategories: ['Pepsi', 'Sting', 'Mirinda', '7up', 'Ole Cream Soda', 'Evervess', 'Mountain Dew', 'Ole Zingo', 'Aquafina']
     },
     {
         name: 'MD',
