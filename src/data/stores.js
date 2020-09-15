@@ -21,11 +21,11 @@ const stores = [
         productCategories: ['Waste', 'Storage', 'Laundry', 'Kitchen', 'Clean', 'Furniture', 'Garden'],
     },
     {
-        name: 'ShopVise',
-        image: 'https://cdn.zenegal.store/stores/23/400-shopvise-by-rukula-15909154607639.png',
-        url: 'https://shopvise.rukulashopping.lk',
+        name: 'Unilever',
+        image: 'https://cdn.zenegal.store/stores/25/100-unilever-15966531824407.png',
+        url: 'https://unilever.rukulashopping.lk',
         supportedCities: [],
-        productCategories: ['Electronics', 'Home & Living', 'Kitchenware', 'Computers & Accessories', 'Phones & Accessories', 'Automotive']
+        productCategories: ['Baby Care', 'Deodorants', 'Food & Beverages', 'Hair Care', 'Laundry & Household Care', 'Oral Care', 'Skin Cleansing']
     },
     {
         name: 'Zesta Ceylon Tea',
@@ -40,6 +40,13 @@ const stores = [
         url: 'https://goodlook1.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Handwash & Sanitizer', 'Skincare', 'Haircare', 'Perfumes and Deodorants']
+    },
+    {
+        name: 'ShopVise',
+        image: 'https://cdn.zenegal.store/stores/23/400-shopvise-by-rukula-15909154607639.png',
+        url: 'https://shopvise.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Electronics', 'Home & Living', 'Kitchenware', 'Computers & Accessories', 'Phones & Accessories', 'Automotive']
     },
     {
         name: 'Yummy Goodness',
@@ -104,13 +111,20 @@ const stores = [
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
     },
-    /*{
+    {
         name: '',
         image: '',
         url: '',
         supportedCities: [],
         productCategories: []
-    },*/
+    },
+    {
+        name: '',
+        image: '',
+        url: '',
+        supportedCities: [],
+        productCategories: []
+    }
 ];
 
 export default stores;
