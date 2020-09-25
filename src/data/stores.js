@@ -42,11 +42,11 @@ const stores = [
         productCategories: ['Handwash & Sanitizer', 'Skincare', 'Haircare', 'Perfumes and Deodorants']
     },
     {
-        name: 'ShopVise',
-        image: 'https://cdn.zenegal.store/stores/23/400-shopvise-by-rukula-15909154607639.png',
-        url: 'https://shopvise.rukulashopping.lk',
+        name: 'Turkey',
+        image: 'https://cdn.zenegal.store/stores/16/100-turkey-1589270639471.png',
+        url: 'https://turkey.rukulashopping.lk',
         supportedCities: [],
-        productCategories: ['Electronics', 'Home & Living', 'Kitchenware', 'Computers & Accessories', 'Phones & Accessories', 'Automotive']
+        productCategories: ['Basmathi', 'Canned Fish', 'Mustard Cream', 'Noodles', 'Oil', 'Pasta', 'Salt', 'Sauce', 'Soya Meat']
     },
     {
         name: 'Yummy Goodness',
@@ -75,6 +75,13 @@ const stores = [
         url: 'https://ariya.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Rice', 'Noodles', 'Milk Powder', 'Condiments']
+    },
+    {
+        name: 'ShopVise',
+        image: 'https://cdn.zenegal.store/stores/23/400-shopvise-by-rukula-15909154607639.png',
+        url: 'https://shopvise.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Electronics', 'Home & Living', 'Kitchenware', 'Computers & Accessories', 'Phones & Accessories', 'Automotive']
     },
     {
         name: 'CatchMe.lk',
@@ -110,13 +117,6 @@ const stores = [
         url: 'https://ecoclean.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
-    },
-    {
-        name: '',
-        image: '',
-        url: '',
-        supportedCities: [],
-        productCategories: []
     },
     {
         name: '',
