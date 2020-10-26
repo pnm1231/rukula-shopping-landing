@@ -49,11 +49,11 @@ const stores = [
         productCategories: ['Basmathi', 'Canned Fish', 'Mustard Cream', 'Noodles', 'Oil', 'Pasta', 'Salt', 'Sauce', 'Soya Meat']
     },
     {
-        name: 'Yummy Goodness',
-        image: 'https://cdn.zenegal.store/stores/15/100-yummy-goodness-15915729971038.png',
-        url: 'https://yummygoodness.rukulashopping.lk',
+        name: 'Maya & Lalanthi',
+        image: 'https://cdn.zenegal.store/stores/30/100-mayas-cakes-16037065235984.png',
+        url: 'https://mayascakes.rukulashopping.lk',
         supportedCities: [],
-        productCategories: ['Jams', 'Marmalades', 'Chutneys', 'Pickles']
+        productCategories: ['Cakes']
     },
     {
         name: 'Vintage Teas',
@@ -119,12 +119,20 @@ const stores = [
         productCategories: ['Cleaning Liquids', 'Cleaning Powders']
     },
     {
+        name: 'Yummy Goodness',
+        image: 'https://cdn.zenegal.store/stores/15/100-yummy-goodness-15915729971038.png',
+        url: 'https://yummygoodness.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Jams', 'Marmalades', 'Chutneys', 'Pickles']
+    }
+    /*,
+    {
         name: '',
         image: '',
         url: '',
         supportedCities: [],
         productCategories: []
-    }
+    }*/
 ];
 
 export default stores;
