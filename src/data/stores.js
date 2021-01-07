@@ -20,13 +20,13 @@ const stores = [
         supportedCities: [],
         productCategories: ['Waste', 'Storage', 'Laundry', 'Kitchen', 'Clean', 'Furniture', 'Garden'],
     },
-    {
+    /*{
         name: 'Unilever',
         image: 'https://cdn.zenegal.store/stores/25/100-unilever-15966531824407.png',
         url: 'https://unilever.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Baby Care', 'Deodorants', 'Food & Beverages', 'Hair Care', 'Laundry & Household Care', 'Oral Care', 'Skin Cleansing']
-    },
+    },*/
     {
         name: 'Zesta Ceylon Tea',
         image: 'https://cdn.zenegal.store/stores/17/100-zesta-ceylon-tea-15890910003682.png',
@@ -124,15 +124,14 @@ const stores = [
         url: 'https://yummygoodness.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Jams', 'Marmalades', 'Chutneys', 'Pickles']
-    }
-    /*,
+    },
     {
         name: '',
         image: '',
         url: '',
         supportedCities: [],
         productCategories: []
-    }*/
+    }
 ];
 
 export default stores;
