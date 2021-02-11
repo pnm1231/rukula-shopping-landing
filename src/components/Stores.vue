@@ -36,6 +36,9 @@ export default {
 </script>
 
 <style>
+    #store-ophir .store-image {
+        background-size: 120px;
+    }
     #store-phoenix .store-image {
         background-size: 150px;
     }

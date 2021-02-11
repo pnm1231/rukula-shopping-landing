@@ -7,11 +7,11 @@ const stores = [
         productCategories: ['Cereals and Nestea', 'Dairy', 'Maggi', 'Milkmaid', 'Milo', 'Nescafe', 'Nestomalt', 'Nutrition Range']
     },
     {
-        name: 'Ambewela Premium Products',
-        image: 'https://cdn.zenegal.store/stores/12/100-ambewela-1588150091457.png',
-        url: 'https://ambewela.rukulashopping.lk',
+        name: 'Ophir',
+        image: 'https://ophir.rukulashopping.lk/images/logo.png',
+        url: 'https://ophir.rukulashopping.lk/',
         supportedCities: [],
-        productCategories: ['Fresh Milk', 'Flavoured Milk', 'Non-Fat Milk', 'Fruit Drinks', 'Energy Drinks', 'Yogurts', 'Cheese']
+        productCategories: ['Hand & Body Liquid Soaps', 'Moisturising Lotions', 'The anti-ageing Ceylon Tea Facial', 'Handmade Soaps', 'Massage & Body Oils', 'Shampoos & Conditioners', 'Exfoliating Scrubs']
     },
     {
         name: 'Phoenix',
@@ -34,6 +34,13 @@ const stores = [
         url: 'https://zestaceylontea.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Everyday Black Tea', 'Leafy Black Teas', 'Single Estate Black Teas', 'Flavored Black Tea', 'Green Tea', 'Gift Teas', 'White Teas', 'Herbal Wellness Range']
+    },
+    {
+        name: 'Ambewela Premium Products',
+        image: 'https://cdn.zenegal.store/stores/12/100-ambewela-1588150091457.png',
+        url: 'https://ambewela.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Fresh Milk', 'Flavoured Milk', 'Non-Fat Milk', 'Fruit Drinks', 'Energy Drinks', 'Yogurts', 'Cheese']
     },
     {
         name: 'Good Look 1',
@@ -125,15 +132,21 @@ const stores = [
         url: 'https://yummygoodness.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Jams', 'Marmalades', 'Chutneys', 'Pickles']
-    }
-    /*,
+    },
     {
         name: '',
         image: '',
         url: '',
         supportedCities: [],
         productCategories: []
-    }*/
+    },
+    {
+        name: '',
+        image: '',
+        url: '',
+        supportedCities: [],
+        productCategories: []
+    }
 ];
 
 export default stores;
