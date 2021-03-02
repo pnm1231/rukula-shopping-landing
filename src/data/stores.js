@@ -43,11 +43,11 @@ const stores = [
         productCategories: ['Fresh Milk', 'Flavoured Milk', 'Non-Fat Milk', 'Fruit Drinks', 'Energy Drinks', 'Yogurts', 'Cheese']
     },
     {
-        name: 'Good Look 1',
-        image: 'https://cdn.zenegal.store/stores/21/100-good-look-1-15900444225206.png',
-        url: 'https://goodlook1.rukulashopping.lk',
+        name: 'Beauteous',
+        image: 'https://cdn.zenegal.store/stores/34/100-beauteous-16146706841317.png',
+        url: 'https://beauteous.rukulashopping.lk',
         supportedCities: [],
-        productCategories: ['Handwash & Sanitizer', 'Skincare', 'Haircare', 'Perfumes and Deodorants']
+        productCategories: ['Bath & Body', 'Fragrances', 'Hair Care', 'Skin Care', 'Skin Nourishment']
     },
     {
         name: 'Turkey',
@@ -134,11 +134,11 @@ const stores = [
         productCategories: ['Jams', 'Marmalades', 'Chutneys', 'Pickles']
     },
     {
-        name: '',
-        image: '',
-        url: '',
+        name: 'Good Look 1',
+        image: 'https://cdn.zenegal.store/stores/21/100-good-look-1-15900444225206.png',
+        url: 'https://goodlook1.rukulashopping.lk',
         supportedCities: [],
-        productCategories: []
+        productCategories: ['Handwash & Sanitizer', 'Skincare', 'Haircare', 'Perfumes and Deodorants']
     },
     {
         name: '',
