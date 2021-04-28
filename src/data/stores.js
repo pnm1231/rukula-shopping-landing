@@ -7,13 +7,6 @@ const stores = [
         productCategories: ['Cereals and Nestea', 'Dairy', 'Maggi', 'Milkmaid', 'Milo', 'Nescafe', 'Nestomalt', 'Nutrition Range']
     },
     {
-        name: 'Ophir',
-        image: 'https://ophir.rukulashopping.lk/images/logo.png',
-        url: 'https://ophir.rukulashopping.lk/',
-        supportedCities: [],
-        productCategories: ['Hand & Body Liquid Soaps', 'Moisturising Lotions', 'The anti-ageing Ceylon Tea Facial', 'Handmade Soaps', 'Massage & Body Oils', 'Shampoos & Conditioners', 'Exfoliating Scrubs']
-    },
-    {
         name: 'Phoenix',
         image: 'https://phoenix.rukulashopping.lk/images/logo.png',
         url: 'https://phoenix.rukulashopping.lk',
@@ -139,6 +132,13 @@ const stores = [
         url: 'https://goodlook1.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Handwash & Sanitizer', 'Skincare', 'Haircare', 'Perfumes and Deodorants']
+    },
+    {
+        name: '',
+        image: '',
+        url: '',
+        supportedCities: [],
+        productCategories: []
     },
     {
         name: '',
