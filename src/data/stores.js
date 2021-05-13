@@ -85,13 +85,6 @@ const stores = [
         productCategories: ['Electronics', 'Home & Living', 'Kitchenware', 'Computers & Accessories', 'Phones & Accessories', 'Automotive']
     },
     {
-        name: 'CatchMe.lk',
-        image: 'https://cdn.zenegal.store/stores/5/100-catchme-1587020784364.png',
-        url: 'https://catchme.rukulashopping.lk',
-        supportedCities: [],
-        productCategories: ['Chocolates', 'Dates', 'Fruits', 'Snacks']
-    },
-    {
         name: 'Pepsi',
         image: 'https://cdn.zenegal.store/stores/14/100-pepsi-15890915844901.png',
         url: 'https://pepsi.rukulashopping.lk',
@@ -132,21 +125,21 @@ const stores = [
         url: 'https://goodlook1.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Handwash & Sanitizer', 'Skincare', 'Haircare', 'Perfumes and Deodorants']
-    },
-    {
-        name: '',
-        image: '',
-        url: '',
-        supportedCities: [],
-        productCategories: []
-    },
-    {
-        name: '',
-        image: '',
-        url: '',
-        supportedCities: [],
-        productCategories: []
     }
+    /*{
+        name: '',
+        image: '',
+        url: '',
+        supportedCities: [],
+        productCategories: []
+    },
+    {
+        name: '',
+        image: '',
+        url: '',
+        supportedCities: [],
+        productCategories: []
+    }*/
 ];
 
 export default stores;
