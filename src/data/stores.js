@@ -36,6 +36,13 @@ const stores = [
         productCategories: ['Fresh Milk', 'Flavoured Milk', 'Non-Fat Milk', 'Fruit Drinks', 'Energy Drinks', 'Yogurts', 'Cheese']
     },
     {
+        name: 'Oateo Oats',
+        image: 'https://cdn.zenegal.store/stores/18/100-oateo-oats-16245143482071.png',
+        url: 'https://oateooats.rukulashopping.lk',
+        supportedCities: [],
+        productCategories: ['Oats']
+    },
+    {
         name: 'Beauteous',
         image: 'https://cdn.zenegal.store/stores/34/100-beauteous-16146706841317.png',
         url: 'https://beauteous.rukulashopping.lk',
@@ -125,8 +132,8 @@ const stores = [
         url: 'https://goodlook1.rukulashopping.lk',
         supportedCities: [],
         productCategories: ['Handwash & Sanitizer', 'Skincare', 'Haircare', 'Perfumes and Deodorants']
-    }
-    /*{
+    },
+    {
         name: '',
         image: '',
         url: '',
@@ -139,7 +146,7 @@ const stores = [
         url: '',
         supportedCities: [],
         productCategories: []
-    }*/
+    }
 ];
 
 export default stores;
